@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="student"> 
+        <center>
+        <form onsubmit="showDetails(event)">
+            <h1>Enter Your Details</h1>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Reg No</td>
+                    <td><input type="text" id="regNo" placeholder="Enter Your Reg No"></td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td>
+                        <select id="department">
+                            <option>Select your Dept</option>
+                            <option>BE</option>
+                            <option>B.Tech</option>
+                            <option>B.Com</option>
+                            <option>B.Sc</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Domain</td>
+                    <td><input type="text" id="domain" placeholder="Enter Your Domain"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="email" placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+        <div id="output"></div>
+    </center>
+    <script src="form.js"></Script>
+</body>
+</html>
