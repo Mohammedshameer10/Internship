@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(139, 130, 130);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#Home {
+    background-image: url("bg.jpg");
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
+#mark{
+    background-image: url("score.jpg");
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#student{
+    background-image: url("student.jpg");
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    opacity: 0.5;
+}
+
+button {
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+ 
+}
+
+button:hover {
+    background: #219150;
+}
+
+
+form {
+    background: rgb(195, 141, 141);
+    padding: 20px;
+    display: block; 
+    border-radius: 10px;
+    margin: 20px auto; 
+    width: fit-content;
+}
+table {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#output, #res {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: block; 
+    min-width: 250px;
+    margin: 20px auto; 
+    text-align: left; 
+    width: fit-content; 
+}
